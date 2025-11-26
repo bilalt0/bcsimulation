@@ -9,3 +9,5 @@ myChain.addBlock(new Block(2, { sender: "Mehmet", receiver: "Ayşe", amount: 10 
 
 myChain.viewChain();
  
+const Block = require('./block');
+const Blockchain = require('./blockchain');
